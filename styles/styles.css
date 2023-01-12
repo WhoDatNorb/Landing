@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Nunito Sans, Arial, sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #131313;
+}
+
+.container {
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.header-content {
+    text-transform: uppercase;
+    height: 83px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    color: white;
+    background-color: #E3B873;
+    border: none;
+    padding: 13px 33px;
+    cursor: pointer;
+    font-style: oblique;
+    font-family: Nunito Sans, Arial, sans-serif;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+}
+
+.special {
+    color: white;
+    background-color: rgba(28,28,28,0);
+    border: 1px solid;
+    padding: 13px 33px;
+    cursor: pointer;
+    font-style: oblique;
+    font-family: Nunito Sans, Arial, sans-serif;
+    text-transform: uppercase;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+
+.tel {
+    color: #E3B873;
+    margin-right: 45px;
+}
+
+.logo {
+    color: #E3B873;
+}
+
+.navlist-item {
+    list-style-type: none;
+    margin-right: 47px;
+}
+
+.navlist-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.navlist-item a:hover {
+    color: #E3B873;
+    transition: 3.5s;
+}
+
+.navlist {
+    display: flex;
+}
+
+.first {
+    background-image: url('../images/firstfon.jpg');
+    background-size: contain;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+}
+
+.first-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, .7);
+}
+
+.first-content {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: white;
+}
