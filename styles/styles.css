@@ -71,7 +71,7 @@ body * {
 
 .navlist-item a:hover {
     color: #E3B873;
-    transition: 3.5s;
+    transition: 2.5s;
 }
 
 .navlist {
@@ -118,4 +118,29 @@ body * {
     font-size: 22px;
     line-height: 36px;
     color: white;
+}
+
+.seclist {
+    display: flex;
+    margin-left: 492px;
+}
+
+.seclist-item {
+    list-style-type: none;
+    margin-right: 60px;
+}
+
+.seclist-item a {
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+}
+
+.seclist-item a:hover {
+    color: #E3B873;
+    transition: 2.5s;
+    text-decoration: underline;
+}
+
+.second {
+    background-color: rgba(19, 19, 19, 1);
 }
