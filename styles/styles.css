@@ -121,8 +121,15 @@ body * {
 }
 
 .seclist {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
     display: flex;
-    margin-left: 492px;
+    margin: 0;
+    padding: 107px 190px 52px 492px;
 }
 
 .seclist-item {
@@ -143,4 +150,126 @@ body * {
 
 .second {
     background-color: rgba(19, 19, 19, 1);
+    height: 1074px;
+}
+
+.sectitle {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.sectext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.containerinfo {
+    display: flex;
+}
+
+.titleinfo {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.textinfo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.secmain {
+    display: flex;
+}
+
+.secimg {
+    margin-left: 55px;
+}
+
+.third {
+    margin-top: -324px;
+}
+
+.camera {
+    display: flex;
+    justify-content: center;
+}
+
+.titlethird {
+    text-align: center;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.camerasvg {
+    margin: 0 10px;
+}
+
+.onlinecontrol {
+    margin: 30px auto;
+    display: block;
+}
+
+.play {
+    position: absolute;
+    top: 1825px;
+    left: 45%;
+    z-index: 1;
+}
+
+hr {
+    width: 55px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #E3B873;
+    border-color: #E3B873;
+}
+
+.thirdtext {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+}
+
+.video-overlay {
+    content: '';
+    width: 817px;
+    height: 434px;
+    position: absolute;
+    top: 1667px;
+    left: 23.1%;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, .7);
 }
